@@ -1,0 +1,71 @@
+.banner{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.background-image{
+    background-image: url('C:\Users\ebin1\OneDrive\Desktop\React files\bakery\src\assests\mae-mu-m9pzwmxm2rk-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7; 
+    
+}
+
+.intro{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 5rem 8rem 6rem;
+    text-align: center;
+    height: 90vh;
+    
+}
+
+.history{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    /* background-image: url('../../assests/history01.jpg');
+    background-size: cover;
+    background-position: center; */
+}
+
+.history-content{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    height: 100vh;
+
+    
+
+}
+.history-content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.legacy{
+    margin-bottom: 1rem;
+}

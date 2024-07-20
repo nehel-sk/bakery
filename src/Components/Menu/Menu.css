@@ -1,0 +1,30 @@
+/* src/components/Menu.css */
+.menu {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin: 2rem auto;
+    width: 80%;
+    height: 90vh;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
